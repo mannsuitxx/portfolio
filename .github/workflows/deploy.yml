@@ -34,7 +34,7 @@ jobs:
         run: npm run build
         env:
           # This injects the secret from GitHub Settings into the build
-          API_KEY: ${{ secrets.API_KEY }}
+          VITE_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -65,7 +65,7 @@ const Projects: React.FC = () => {
       title: "Disaster Management System Implemantation",
       category: "Java Application",
       description: "A robust AI based Implementation For Disaster In Education system For local Schools and Colleges.",
-      image: "components/proj2.png",
+      image: "https://raw.githubusercontent.com/mannsuitxx/portfolio/7a69db5e86e40800fb2949f4f4daf6515924f805/components/proj2.png",
       tags: ["JavaScript", "Python", "DBMS" , "ReactJS" ,"tailwindCSS"],
       demoUrl: "https://pulseai-wb.netlify.app/" // Replace with actual Disaster Management System demo URL
     }

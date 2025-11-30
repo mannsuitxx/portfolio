@@ -72,7 +72,7 @@ const BentoGrid: React.FC = () => {
           {/* Item 4: Profile */}
           <div className="reveal stagger-1 md:col-span-1 md:row-span-2 bg-[#111] rounded-3xl p-8 border border-white/5 flex flex-col items-center text-center justify-center gap-4 hover:border-white/20 transition-all group">
              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-white/10 relative">
-                 <img src="https://media.licdn.com/dms/image/v2/D4E03AQFfJFQCf7cBsQ/profile-displayphoto-scale_200_200/B4EZj2dTFTIUAY-/0/1756481535509?e=1766016000&v=beta&t=kNRrh3SZMgFjOs24BgiVF5Wz7ypCpUmsopOy3V-sezo" alt="Mannat" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                 <img src="https://raw.githubusercontent.com/mannsuitxx/portfolio/refs/heads/main/components/1756481535509.jpg" alt="Mannat" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
              </div>
              <div>
                  <h4 className="font-display font-bold text-xl">Mannat Suthar</h4>

@@ -28,7 +28,7 @@ If asked about contact info, suggest looking at the 'Contact' section or emailin
 export const sendMessageToGemini = async (message: string): Promise<string> => {
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-2.5-flash",
       systemInstruction: SYSTEM_INSTRUCTION,
       safetySettings: [
         { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE },
